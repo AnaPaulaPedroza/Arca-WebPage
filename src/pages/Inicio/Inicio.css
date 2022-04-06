@@ -1,0 +1,71 @@
+body {
+  background-image: url("/src/pages/Inicio/img/background-inicio.jpeg");
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+  background-position:center;
+  background-size: cover;
+}
+
+
+.container {
+    width: 70%;
+    height: 80%;
+    top: 0%;
+    right: 0%;
+    padding-left: 17%;
+    padding-right: 5%;
+    padding-top: 5%;
+    display: flex;
+    flex-direction:row;
+    align-content: center;
+    
+  }
+
+  
+ .divplane-inicio {
+    flex: 5%;
+    width: 23%;
+    margin-right: 7%;
+    background-color:darkred;
+   border-collapse: collapse;
+    display: inline-block;
+    padding-left: 2%;
+    padding-right: 1%;
+    border-radius: 10px 100px / 120px;
+    box-shadow: 10px 10px 15px grey;
+}
+  
+  
+.title-inicio {
+  padding-top: 5%;
+  text-align: center;
+  font-family: calibri;
+  color: bisque;
+
+}
+
+.text-inicio {
+  padding-top: 4%;
+  padding-bottom: 6%;
+  font-size: 160%;
+  text-align: center;
+  margin: 5%;
+  font-family: calibri;
+  color:white;
+}
+
+.img-inicio {
+  text-align: center;
+ 
+}
+
+.jpic-inicio {
+  align-items: center;
+  padding-bottom: 5%;
+  background-position: bottom;
+}
+
+.jpic-inicio:hover {
+  filter:brightness(0.7);
+}
